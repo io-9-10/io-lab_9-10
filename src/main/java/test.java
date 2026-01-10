@@ -1,11 +1,11 @@
-public class BadCode {
-    public void bad() {
-        if (true) {
-            if (true) {
-                if (true) {
-                    System.out.println("Code smell");
-                }
-            }
-        }
+public class GoodCode {
+
+    public String getMessage() {
+        return "Code smell";
+    }
+
+    public static void main(String[] args) {
+        GoodCode code = new GoodCode();
+        System.out.println(code.getMessage());
     }
 }
