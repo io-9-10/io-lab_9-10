@@ -1,3 +1,5 @@
+package wat.io;
+
 class test {
 
     String getMessage() {

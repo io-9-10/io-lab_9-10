@@ -37,8 +37,8 @@
         <!-- Spring Boot Test (JUnit 5, MockMvc, etc.) -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-test</artifactId>
-            <scope>test</scope>
+            <artifactId>spring-boot-starter-wat.io.test</artifactId>
+            <scope>wat.io.test</scope>
         </dependency>
 
     </dependencies>
